@@ -1,6 +1,6 @@
 ![Vim Logo](/img/vimlogo.png)
 
-***My personal ~/.vimrc and colorscheme***
+## **My personal ~/.vimrc and colorscheme**
 
 # Plugins:
 * [vim-plug (package management)](https://www.github.com/junegunn/vim-plug)
@@ -8,4 +8,4 @@
 * [vim-fugitive](https://www.github.com/tpope/vim-fugitive)
 
 # Screenshot:
-![Screenshot](/img/screenshot.png])
+![Screenshot](/img/screenshot.png)
