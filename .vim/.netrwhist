@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/b3rb'
+let g:netrw_dirhist_2='/home/b3rb/test'
+let g:netrw_dirhist_3='/home/b3rb'
+let g:netrw_dirhist_4='/home/b3rb/.audacity-data'
+let g:netrw_dirhist_5='/home/b3rb'
