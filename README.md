@@ -1,6 +1,6 @@
 ![Vim Logo](/img/vimlogo.png)
 
-## **My personal ~/.vimrc and colorscheme**
+## *My personal ~/.vimrc and colorscheme*
 
 # Plugins:
 * [vim-plug (package management)](https://www.github.com/junegunn/vim-plug)
