@@ -1,6 +1,6 @@
 ![Vim Logo](/img/vimlogo.png)
 
-# My minimalist ~/.vimrc and colorscheme
+# a minimalist ~/.vimrc and colorscheme
 ***To install, simply copy .vimrc to your home directory and copy b3rb.vim to ~/.vim/colors***
 
 ### Plugins:
