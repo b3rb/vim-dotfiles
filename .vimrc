@@ -5,7 +5,7 @@
 "	  _| |/ / / / / / / / /  / /__
 "	 (_)___/_/_/ /_/ /_/_/   \___/
 "
-" Last edited June 08, 2019
+" Last edited July 21, 2019
 
 " vim-plug 
 call plug#begin()
@@ -18,37 +18,34 @@ set noswapfile
 " Improves vi
 set nocompatible
 
+" Set UTF-8 encoding
+set enc=utf-8
+set fenc=utf-8
+set termencoding=utf-8
+
 " Enables confirmation when exiting an unsaved file
 set confirm
 
 " Tab 
 set tabstop=2
+set softtabstop=2
 set shiftwidth=2
+set expandtab
 
 " Disables automatic text wrapping
-set tw=0
-
-" Enables mouse input
-set mouse=a
+set wrap!
 
 " Automatically sets modeline variables
 setglobal modeline
 
 " Syntax highlighting/ colorscheme
-set t_Co=16
 colorscheme b3rb
+set t_Co=16
 syntax on
 filetype indent plugin on
-let g:cpp_class_scope_highlight = 1
-let g:cpp_member_variable_highlight = 1
-let g:cpp_class_decl_highlight = 1
-let g:cpp_concepts_highlight = 1
 
 " Disables automatic comment continuation
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" Hide tildes on blank lines
-hi EndOfBuffer ctermbg=black ctermfg=black
 
 " Indentation
 set autoindent
